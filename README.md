@@ -89,6 +89,36 @@ Repository containing solutions for the **Machine Learning Lab (PCCSL508)** assi
 
 ---
 
+## Assignment 5 – Week 5
+*(Special Thanks: Alvin George)*  
+[Lab Assignment 5](https://mllabpccsl506ktu2024.blogspot.com/2026/03/assignment-5.html)
+
+### Topics covered:
+
+* Maximum Likelihood Estimation (MLE)
+* Maximum A Posteriori (MAP) Estimation
+* Bayesian Parameter Estimation
+* Bernoulli Distribution
+* Beta Distribution and Beta Priors
+* Gaussian Distribution
+* Gaussian Priors
+* Likelihood and Posterior Distributions
+* Logistic Regression using MLE
+* Logistic Regression using MAP
+* L1 and L2 Regularization
+* Effect of Regularization on Model Parameters
+* Multinomial Distribution
+* Dirichlet Priors
+* Comparison of MLE and MAP
+* Effect of Different Priors
+* Breast Cancer Wisconsin Dataset
+* 20 Newsgroups Dataset
+* Student Exam Dataset
+
+**Notebook:** [`assignment5.ipynb`](assignment5.ipynb)
+
+---
+
 ## Technologies Used
 
 * Python
@@ -100,6 +130,19 @@ Repository containing solutions for the **Machine Learning Lab (PCCSL508)** assi
 
 ---
 
+## Datasets Used
+
+* Iris Dataset
+* California Housing Dataset
+* Auto MPG Dataset
+* Diabetes Dataset
+* Breast Cancer Wisconsin Dataset
+* Pima Indians Diabetes Dataset
+* Student Exam Dataset
+* 20 Newsgroups Dataset
+
+---
+
 ## Repository Structure
 
 ```text
@@ -108,5 +151,6 @@ Repository containing solutions for the **Machine Learning Lab (PCCSL508)** assi
 ├── assignment2.ipynb
 ├── assignment3.ipynb
 ├── assignment4.ipynb
+├── assignment5.ipynb
 └── README.md
 ```
