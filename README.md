@@ -180,5 +180,6 @@ Learn Naive Bayes Classifier.
 ├── assignment4.ipynb
 ├── assignment5.ipynb
 ├── assignment6.ipynb
+├── student_exam.csv
 └── README.md
 ```
