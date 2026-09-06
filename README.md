@@ -119,6 +119,33 @@ Repository containing solutions for the **Machine Learning Lab (PCCSL508)** assi
 
 ---
 
+## Assignment 6 – Week 6
+
+[Lab Assignment 6](https://mllabpccsl506ktu2024.blogspot.com/2026/03/lab-assignment-6.html)
+
+### Learning Objective
+
+Learn Naive Bayes Classifier.
+
+### Topics covered:
+
+* Naive Bayes Classifier
+* Bernoulli Naive Bayes
+* Categorical Naive Bayes
+* Multinomial Naive Bayes
+* Prior Probability
+* Conditional Probability
+* Posterior Probability
+* Naive Bayes Assumption
+* Laplace Smoothing
+* Text Classification
+* 20 Newsgroups Dataset
+* Comparison of Multinomial and Bernoulli Naive Bayes
+* Accuracy and F1-Score
+
+**Notebook:** [`assignment6.ipynb`](assignment6.ipynb)
+
+---
 ## Technologies Used
 
 * Python
@@ -152,5 +179,6 @@ Repository containing solutions for the **Machine Learning Lab (PCCSL508)** assi
 ├── assignment3.ipynb
 ├── assignment4.ipynb
 ├── assignment5.ipynb
+├── assignment6.ipynb
 └── README.md
 ```
