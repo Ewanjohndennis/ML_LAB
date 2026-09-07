@@ -21,7 +21,7 @@ Repository containing solutions for the **Machine Learning Lab (PCCSL508)** assi
 * Activation Function Plots (ReLU, Sigmoid, Tanh, Log)
 * Statistical Visualization using Seaborn (Iris Dataset)
 
-**Notebook:** [`assignment1.ipynb`](assignment1.ipynb)
+**Notebook:** [`assignment1.ipynb`](assigment1.ipynb)
 
 ---
 
@@ -146,6 +146,45 @@ Learn Naive Bayes Classifier.
 **Notebook:** [`assignment6.ipynb`](assignment6.ipynb)
 
 ---
+
+## Assignment 7 – Week 7
+
+[Lab Assignment 7](https://mllabpccsl506ktu2024.blogspot.com/2026/03/lab-assignment-7.html)
+
+### Learning Objective
+
+Learn K-Nearest Neighbors (KNN) Classifier.
+
+### Topics covered:
+
+* K-Nearest Neighbors (KNN)
+* KNN Classification
+* Euclidean Distance
+* Manual KNN Implementation
+* Majority Voting
+* Feature Scaling
+* StandardScaler
+* KNeighborsClassifier
+* GridSearchCV
+* Cross-Validation
+* Accuracy
+* Precision
+* Recall
+* F1-Score
+* Confusion Matrix
+* Classification Report
+* K Value Selection
+* K Value vs Accuracy Visualization
+* Binary Classification
+* Multi-Class Classification
+* Breast Cancer Wisconsin Dataset
+* Fashion MNIST Dataset
+* Student Pass/Fail Classification
+
+**Notebook:** [`assignment7.ipynb`](assignment7.ipynb)
+
+---
+
 ## Technologies Used
 
 * Python
@@ -167,6 +206,7 @@ Learn Naive Bayes Classifier.
 * Pima Indians Diabetes Dataset
 * Student Exam Dataset
 * 20 Newsgroups Dataset
+* Fashion MNIST Dataset
 
 ---
 
@@ -180,6 +220,7 @@ Learn Naive Bayes Classifier.
 ├── assignment4.ipynb
 ├── assignment5.ipynb
 ├── assignment6.ipynb
+├── assignment7.ipynb
 ├── student_exam.csv
 └── README.md
 ```
