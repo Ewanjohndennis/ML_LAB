@@ -185,6 +185,68 @@ Learn K-Nearest Neighbors (KNN) Classifier.
 
 ---
 
+## Assignment 8 – Week 8
+
+[Lab Assignment 8](https://mllabpccsl506ktu2024.blogspot.com/2026/03/lab-assignment-8.html)
+
+### Learning Objective
+
+Learn Decision Trees.
+
+### Topics covered:
+
+* Decision Tree Classification
+* ID3 Algorithm
+* Entropy
+* Information Gain
+* Root Node Selection
+* Recursive Tree Construction
+* Categorical Feature Handling
+* Manual Decision Tree Implementation
+* Decision Tree Visualization
+* Feature Importance
+* Scikit-learn Decision Tree Classifier
+* Comparison of Manual ID3 and Scikit-learn
+
+**Notebook:** [`assignment8.ipynb`](assignment8.ipynb)
+
+---
+
+## Assignment 9 – Week 9
+
+[Lab Assignment 9](https://mllabpccsl506ktu2024.blogspot.com/2026/03/lab-assignment-9.html)
+
+### Learning Objective
+
+Learn Support Vector Machines (SVM).
+
+### Topics covered:
+
+* Support Vector Machine (SVM)
+* Linear SVM
+* SVM from Scratch
+* Sub-Gradient Descent
+* Decision Function
+* Hyperplane
+* Margin
+* Support Vectors
+* Regularization Parameter `C`
+* Effect of Regularization on Margin
+* Linear SVM on Iris Dataset
+* Setosa vs Non-Setosa Classification
+* Linear, Polynomial and RBF Kernels
+* Kernel Comparison
+* Fashion MNIST Dataset
+* Accuracy
+* Precision
+* Recall
+* F1-Score
+* Training and Prediction Time
+* Advantages and Disadvantages of SVM Kernels
+
+**Notebook:** [`assignment9.ipynb`](assignment9.ipynb)
+
+---
 ## Technologies Used
 
 * Python
@@ -195,6 +257,7 @@ Learn K-Nearest Neighbors (KNN) Classifier.
 * Scikit-learn
 
 ---
+
 
 ## Datasets Used
 
@@ -221,6 +284,8 @@ Learn K-Nearest Neighbors (KNN) Classifier.
 ├── assignment5.ipynb
 ├── assignment6.ipynb
 ├── assignment7.ipynb
+├── assignment8.ipynb
+├── assignment9.ipynb
 ├── student_exam.csv
 └── README.md
 ```
