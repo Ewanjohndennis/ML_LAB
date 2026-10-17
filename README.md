@@ -1,252 +1,117 @@
 # Machine Learning Lab (PCCSL508)
 
-Repository containing solutions for the **Machine Learning Lab (PCCSL508)** assignments of the **KTU 2024 Scheme (Semester 5)**.
+Solutions for the **Machine Learning Lab (PCCSL508)** under the **KTU 2024 Scheme – Semester 5**, implemented using Python and Scikit-learn.
 
----
+## Assignments
 
-## Assignment 1 – Week 1
+### Assignment 1 – Week 1
 
 [Lab Assignment 1](https://mllabpccsl506ktu2024.blogspot.com/2026/03/lab-assignment-1.html)
 
-### Topics covered:
+This assignment covers NumPy operations, Pandas data manipulation, data cleaning, statistical analysis, and data visualization.
 
-* NumPy Arrays and Operations
-* NumPy Arithmetic and Indexing
-* Random Numbers and Statistics
-* Linear Algebra using NumPy
-* Pandas Series and DataFrames
-* Data Cleaning with Pandas
-* Data Analysis using Pandas
-* Data Visualization with Matplotlib
-* Activation Function Plots (ReLU, Sigmoid, Tanh, Log)
-* Statistical Visualization using Seaborn (Iris Dataset)
+**Notebook:** [`assignment1.ipynb`](assignment1.ipynb)
 
-**Notebook:** [`assignment1.ipynb`](assigment1.ipynb)
-
----
-
-## Assignment 2 – Week 2
+### Assignment 2 – Week 2
 
 [Lab Assignment 2](https://mllabpccsl506ktu2024.blogspot.com/2026/03/lab-assignment-2.html)
 
-### Topics covered:
-
-* Simple Linear Regression
-* Multiple Linear Regression (Normal Equation)
-* Linear Regression using Gradient Descent
-* Linear Regression on the California Housing Dataset
-* Polynomial Regression on the Auto MPG Dataset
+This assignment explores linear and polynomial regression, gradient descent, and regression using real-world datasets.
 
 **Notebook:** [`assignment2.ipynb`](assignment2.ipynb)
 
----
-
-## Assignment 3 – Week 3
+### Assignment 3 – Week 3
 
 [Lab Assignment 3](https://mllabpccsl506ktu2024.blogspot.com/2026/03/lab-assignment-3.html)
 
-### Topics covered:
-
-* Polynomial Regression
-* GridSearchCV
-* Cross-Validation
-* Model Selection
-* Underfitting and Overfitting
-* Bias-Variance Tradeoff
-* Training and Testing Error Analysis
-* Ridge Regression
-* Lasso Regression
-* Regularization
-* California Housing Dataset
-* Diabetes Dataset
+This assignment focuses on model selection, cross-validation, polynomial regression, regularization, and the bias–variance tradeoff.
 
 **Notebook:** [`assignment3.ipynb`](assignment3.ipynb)
 
----
-
-## Assignment 4 – Week 4
+### Assignment 4 – Week 4
 
 [Lab Assignment 4](https://mllabpccsl506ktu2024.blogspot.com/2026/03/lab-assignment-4.html)
 
-### Topics covered:
-
-* Logistic Regression
-* Binary Classification
-* Feature Scaling
-* Accuracy
-* Precision
-* Recall
-* F1-Score
-* Confusion Matrix
-* Classification Report
-* ROC Curve
-* AUC
-* Probability Prediction
-* Breast Cancer Wisconsin Dataset
-* Pima Indians Diabetes Dataset
+This assignment introduces logistic regression and binary classification, covering evaluation metrics, confusion matrices, and ROC-AUC analysis.
 
 **Notebook:** [`assignment4.ipynb`](assignment4.ipynb)
 
----
+### Assignment 5 – Week 5
 
-## Assignment 5 – Week 5
-*(Special Thanks: Alvin George)*  
 [Lab Assignment 5](https://mllabpccsl506ktu2024.blogspot.com/2026/03/assignment-5.html)
 
-### Topics covered:
-
-* Maximum Likelihood Estimation (MLE)
-* Maximum A Posteriori (MAP) Estimation
-* Bayesian Parameter Estimation
-* Bernoulli Distribution
-* Beta Distribution and Beta Priors
-* Gaussian Distribution
-* Gaussian Priors
-* Likelihood and Posterior Distributions
-* Logistic Regression using MLE
-* Logistic Regression using MAP
-* L1 and L2 Regularization
-* Effect of Regularization on Model Parameters
-* Multinomial Distribution
-* Dirichlet Priors
-* Comparison of MLE and MAP
-* Effect of Different Priors
-* Breast Cancer Wisconsin Dataset
-* 20 Newsgroups Dataset
-* Student Exam Dataset
+This assignment explores MLE, MAP, Bayesian parameter estimation, probability distributions, and the effects of regularization.
 
 **Notebook:** [`assignment5.ipynb`](assignment5.ipynb)
 
----
+*Special thanks to Alvin George.*
 
-## Assignment 6 – Week 6
+### Assignment 6 – Week 6
 
 [Lab Assignment 6](https://mllabpccsl506ktu2024.blogspot.com/2026/03/lab-assignment-6.html)
 
-### Learning Objective
-
-Learn Naive Bayes Classifier.
-
-### Topics covered:
-
-* Naive Bayes Classifier
-* Bernoulli Naive Bayes
-* Categorical Naive Bayes
-* Multinomial Naive Bayes
-* Prior Probability
-* Conditional Probability
-* Posterior Probability
-* Naive Bayes Assumption
-* Laplace Smoothing
-* Text Classification
-* 20 Newsgroups Dataset
-* Comparison of Multinomial and Bernoulli Naive Bayes
-* Accuracy and F1-Score
+This assignment implements Naive Bayes classifiers and explores probability estimation, Laplace smoothing, and text classification.
 
 **Notebook:** [`assignment6.ipynb`](assignment6.ipynb)
 
----
-
-## Assignment 7 – Week 7
+### Assignment 7 – Week 7
 
 [Lab Assignment 7](https://mllabpccsl506ktu2024.blogspot.com/2026/03/lab-assignment-7.html)
 
-### Learning Objective
-
-Learn K-Nearest Neighbors (KNN) Classifier.
-
-### Topics covered:
-
-* K-Nearest Neighbors (KNN)
-* KNN Classification
-* Euclidean Distance
-* Manual KNN Implementation
-* Majority Voting
-* Feature Scaling
-* StandardScaler
-* KNeighborsClassifier
-* GridSearchCV
-* Cross-Validation
-* Accuracy
-* Precision
-* Recall
-* F1-Score
-* Confusion Matrix
-* Classification Report
-* K Value Selection
-* K Value vs Accuracy Visualization
-* Binary Classification
-* Multi-Class Classification
-* Breast Cancer Wisconsin Dataset
-* Fashion MNIST Dataset
-* Student Pass/Fail Classification
+This assignment explores K-Nearest Neighbors classification, distance calculations, feature scaling, hyperparameter tuning, and model evaluation.
 
 **Notebook:** [`assignment7.ipynb`](assignment7.ipynb)
 
----
-
-## Assignment 8 – Week 8
+### Assignment 8 – Week 8
 
 [Lab Assignment 8](https://mllabpccsl506ktu2024.blogspot.com/2026/03/lab-assignment-8.html)
 
-### Learning Objective
-
-Learn Decision Trees.
-
-### Topics covered:
-
-* Decision Tree Classification
-* ID3 Algorithm
-* Entropy
-* Information Gain
-* Root Node Selection
-* Recursive Tree Construction
-* Categorical Feature Handling
-* Manual Decision Tree Implementation
-* Decision Tree Visualization
-* Feature Importance
-* Scikit-learn Decision Tree Classifier
-* Comparison of Manual ID3 and Scikit-learn
+This assignment covers decision tree classification, the ID3 algorithm, entropy, information gain, and tree visualization.
 
 **Notebook:** [`assignment8.ipynb`](assignment8.ipynb)
 
----
-
-## Assignment 9 – Week 9
+### Assignment 9 – Week 9
 
 [Lab Assignment 9](https://mllabpccsl506ktu2024.blogspot.com/2026/03/lab-assignment-9.html)
 
-### Learning Objective
-
-Learn Support Vector Machines (SVM).
-
-### Topics covered:
-
-* Support Vector Machine (SVM)
-* Linear SVM
-* SVM from Scratch
-* Sub-Gradient Descent
-* Decision Function
-* Hyperplane
-* Margin
-* Support Vectors
-* Regularization Parameter `C`
-* Effect of Regularization on Margin
-* Linear SVM on Iris Dataset
-* Setosa vs Non-Setosa Classification
-* Linear, Polynomial and RBF Kernels
-* Kernel Comparison
-* Fashion MNIST Dataset
-* Accuracy
-* Precision
-* Recall
-* F1-Score
-* Training and Prediction Time
-* Advantages and Disadvantages of SVM Kernels
+This assignment implements Support Vector Machines and compares linear, polynomial, and RBF kernels for classification.
 
 **Notebook:** [`assignment9.ipynb`](assignment9.ipynb)
 
+### Assignment 10 – Week 10
+
+[Lab Assignment 10](https://mllabpccsl506ktu2024.blogspot.com/2026/03/lab-assignment-10.html)
+
+This assignment explores neural networks, backpropagation, XOR classification, and multilayer perceptrons with different configurations.
+
+**Notebook:** [`assignment10.ipynb`](assignment10.ipynb)
+
+### Assignment 11 – Week 11
+
+[Lab Assignment 11](https://mllabpccsl506ktu2024.blogspot.com/2026/03/lab-assignment-11.html)
+
+This assignment investigates clustering techniques, including K-Means and hierarchical clustering, using evaluation methods and customer segmentation.
+
+**Notebook:** [`assignment11.ipynb`](assignment11.ipynb)
+
+### Assignment 12 – Week 12
+
+[Lab Assignment 12](https://mllabpccsl506ktu2024.blogspot.com/2026/03/lab-assignment-12.html)
+
+This assignment uses bootstrapping and K-Fold Cross-Validation to evaluate classification models and investigates the bias–variance tradeoff through polynomial regression.
+
+**Notebook:** [`assignment12.ipynb`](assignment12.ipynb)
+
+### Assignment 13 – Week 13
+
+[Lab Assignment 13](https://mllabpccsl506ktu2024.blogspot.com/2026/03/lab-assignment-13.html)
+
+This assignment compares linear regression, Random Forest regression, bagging, and boosting techniques to understand ensemble learning and model performance.
+
+**Notebook:** [`assignment13.ipynb`](assignment13.ipynb)
+
 ---
+
 ## Technologies Used
 
 * Python
@@ -255,23 +120,12 @@ Learn Support Vector Machines (SVM).
 * Matplotlib
 * Seaborn
 * Scikit-learn
-
----
-
+* TensorFlow/Keras
+* XGBoost
 
 ## Datasets Used
 
-* Iris Dataset
-* California Housing Dataset
-* Auto MPG Dataset
-* Diabetes Dataset
-* Breast Cancer Wisconsin Dataset
-* Pima Indians Diabetes Dataset
-* Student Exam Dataset
-* 20 Newsgroups Dataset
-* Fashion MNIST Dataset
-
----
+Iris, California Housing, Auto MPG, Diabetes, Breast Cancer Wisconsin, Pima Indians Diabetes, Student Exam, 20 Newsgroups, Fashion MNIST, Titanic, and other datasets used in the assignments.
 
 ## Repository Structure
 
@@ -286,6 +140,10 @@ Learn Support Vector Machines (SVM).
 ├── assignment7.ipynb
 ├── assignment8.ipynb
 ├── assignment9.ipynb
+├── assignment10.ipynb
+├── assignment11.ipynb
+├── assignment12.ipynb
+├── assignment13.ipynb
 ├── student_exam.csv
 └── README.md
 ```
